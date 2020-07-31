@@ -1,0 +1,249 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{azizpour2015factors}
+Azizpour, H., Razavian, A.S., Sullivan, J., Maki, A., Carlsson, S.: Factors of
+  transferability for a generic convnet representation. IEEE transactions on
+  pattern analysis and machine intelligence  \textbf{38}(9),  1790--1802 (2015)
+
+\bibitem{bach2015pixel}
+Bach, S., Binder, A., Montavon, G., Klauschen, F., M{\"u}ller, K.R., Samek, W.:
+  On pixel-wise explanations for non-linear classifier decisions by layer-wise
+  relevance propagation. PloS one  \textbf{10}(7),  e0130140 (2015)
+
+\bibitem{Balaji2019NormalizedWF}
+Balaji, Y., Chellappa, R., Feizi, S.: Normalized wasserstein for mixture
+  distributions with applications in adversarial learning and domain
+  adaptation. 2019 IEEE/CVF International Conference on Computer Vision (ICCV)
+  pp. 6499--6507 (2019)
+
+\bibitem{canny1987computational}
+Canny, J.: A computational approach to edge detection. In: Readings in computer
+  vision, pp. 184--203. Elsevier (1987)
+
+\bibitem{DeepLabV3}
+Chen, L.C., Papandreou, G., Schroff, F., Adam, H.: Rethinking atrous
+  convolution for semantic image segmentation. ArXiv  \textbf{abs/1706.05587}
+  (2017)
+
+\bibitem{de2011duality}
+De~la Cruz, O., Holmes, S.: The duality diagram in data analysis: examples of
+  modern applications. The annals of applied statistics  \textbf{5}(4), ~2266
+  (2011)
+
+\bibitem{deng2009imagenet}
+Deng, J., Dong, W., Socher, R., Li, L.J., Li, K., Fei-Fei, L.: Imagenet: A
+  large-scale hierarchical image database. 2009 IEEE Conference on Computer
+  Vision and Pattern Recognition pp. 248--255 (2009)
+
+\bibitem{dumoulin2016learned}
+Dumoulin, V., Shlens, J., Kudlur, M.: A learned representation for artistic
+  style. arXiv preprint arXiv:1610.07629  (2016)
+
+\bibitem{Dwivedi_RSA_19}
+Dwivedi, K., Roig, G.: Representation similarity analysis for efficient task
+  taxonomy \& transfer learning. In: Proceedings of the IEEE Conference on
+  Computer Vision and Pattern Recognition. pp. 12387--12396 (2019)
+
+\bibitem{escoufier1987duality}
+Escoufier, Y.: The duality diagram: a means for better practical applications.
+  In: Develoments in Numerical Ecology, pp. 139--156. Springer (1987)
+
+\bibitem{PascalVOC}
+Everingham, M., Van~Gool, L., Williams, C.K., Winn, J., Zisserman, A.: The
+  pascal visual object classes (voc) challenge. Int. J. Comput. Vision
+  \textbf{88}(2),  303--338 (Jun 2010). \doi{10.1007/s11263-009-0275-4},
+  \url{http://dx.doi.org/10.1007/s11263-009-0275-4}
+
+\bibitem{he2018rethinking}
+He, K., Girshick, R., Doll{\'a}r, P.: Rethinking imagenet pre-training. In:
+  Proceedings of the IEEE International Conference on Computer Vision. pp.
+  4918--4927 (2019)
+
+\bibitem{ResNet}
+He, K., Zhang, X., Ren, S., Sun, J.: Deep residual learning for image
+  recognition. 2016 IEEE Conference on Computer Vision and Pattern Recognition
+  (CVPR) pp. 770--778 (2016)
+
+\bibitem{holmes2008multivariate}
+Holmes, S., et~al.: Multivariate data analysis: the french way. In: Probability
+  and statistics: Essays in honor of David A. Freedman, pp. 219--233. Institute
+  of Mathematical Statistics (2008)
+
+\bibitem{huang2017arbitrary}
+Huang, X., Belongie, S.: Arbitrary style transfer in real-time with adaptive
+  instance normalization. In: Proceedings of the IEEE International Conference
+  on Computer Vision. pp. 1501--1510 (2017)
+
+\bibitem{huh2016makes}
+Huh, M., Agrawal, P., Efros, A.A.: What makes imagenet good for transfer
+  learning? arXiv preprint arXiv:1608.08614  (2016)
+
+\bibitem{ioffe2015batch}
+Ioffe, S., Szegedy, C.: Batch normalization: Accelerating deep network training
+  by reducing internal covariate shift. In: International Conference on Machine
+  Learning. pp. 448--456 (2015)
+
+\bibitem{jolliffe2016principal}
+Jolliffe, I.T., Cadima, J.: Principal component analysis: a review and recent
+  developments. Philosophical Transactions of the Royal Society A:
+  Mathematical, Physical and Engineering Sciences  \textbf{374}(2065),
+  20150202 (2016)
+
+\bibitem{kornblith2019similarity}
+Kornblith, S., Norouzi, M., Lee, H., Hinton, G.: Similarity of neural network
+  representations revisited. In: International Conference on Machine Learning.
+  pp. 3519--3529 (2019)
+
+\bibitem{kornblith2019better}
+Kornblith, S., Shlens, J., Le, Q.V.: Do better imagenet models transfer better?
+  In: Proceedings of the IEEE Conference on Computer Vision and Pattern
+  Recognition. pp. 2661--2671 (2019)
+
+\bibitem{krizhevsky2012imagenet}
+Krizhevsky, A., Sutskever, I., Hinton, G.E.: Imagenet classification with deep
+  convolutional neural networks. Commun. ACM  \textbf{60},  84--90 (2012)
+
+\bibitem{DeeperDP}
+Laina, I., Rupprecht, C., Belagiannis, V., Tombari, F., Navab, N.: Deeper depth
+  prediction with fully convolutional residual networks. 2016 Fourth
+  International Conference on 3D Vision (3DV) pp. 239--248 (2016)
+
+\bibitem{Li2016RevisitingBN}
+Li, Y., Wang, N., Shi, J., Liu, J., Hou, X.: Revisiting batch normalization for
+  practical domain adaptation. ArXiv  \textbf{abs/1603.04779} (2016)
+
+\bibitem{coco}
+Lin, T.Y., Maire, M., Belongie, S.J., Bourdev, L.D., Girshick, R.B., Hays, J.,
+  Perona, P., Ramanan, D., Zitnick, C.L., Doll{\'a}r, P.: Microsoft coco:
+  Common objects in context. In: ECCV (2014)
+
+\bibitem{mallya2018piggyback}
+Mallya, A., Davis, D., Lazebnik, S.: Piggyback: Adapting a single network to
+  multiple tasks by learning to mask weights. In: Proceedings of the European
+  Conference on Computer Vision (ECCV). pp. 67--82 (2018)
+
+\bibitem{maninis2019attentive}
+Maninis, K.K., Radosavovic, I., Kokkinos, I.: Attentive single-tasking of
+  multiple tasks. In: Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition. pp. 1851--1860 (2019)
+
+\bibitem{misra2016cross}
+Misra, I., Shrivastava, A., Gupta, A., Hebert, M.: Cross-stitch networks for
+  multi-task learning. In: Proceedings of the IEEE Conference on Computer
+  Vision and Pattern Recognition. pp. 3994--4003 (2016)
+
+\bibitem{monfortmoments}
+Monfort, M., Andonian, A., Zhou, B., Ramakrishnan, K., Bargal, S.A., Yan, T.,
+  Brown, L., Fan, Q., Gutfruend, D., Vondrick, C., et~al.: Moments in time
+  dataset: one million videos for event understanding. IEEE Transactions on
+  Pattern Analysis and Machine Intelligence pp.~1--8 (2019)
+
+\bibitem{NYUV2}
+Nathan~Silberman, Derek~Hoiem, P.K., Fergus, R.: Indoor segmentation and
+  support inference from rgbd images. In: ECCV (2012)
+
+\bibitem{olah2017feature}
+Olah, C., Mordvintsev, A., Schubert, L.: Feature visualization. Distill
+  (2017). \doi{10.23915/distill.00007},
+  https://distill.pub/2017/feature-visualization
+
+\bibitem{pan2009survey}
+Pan, S.J., Yang, Q.: A survey on transfer learning. IEEE Transactions on
+  knowledge and data engineering  \textbf{22}(10),  1345--1359 (2009)
+
+\bibitem{raghu2017svcca}
+Raghu, M., Gilmer, J., Yosinski, J., Sohl-Dickstein, J.: Svcca: Singular vector
+  canonical correlation analysis for deep learning dynamics and
+  interpretability. In: Advances in Neural Information Processing Systems. pp.
+  6076--6085 (2017)
+
+\bibitem{rebuffi2018efficient}
+Rebuffi, S.A., Bilen, H., Vedaldi, A.: Efficient parametrization of
+  multi-domain deep neural networks. In: Proceedings of the IEEE Conference on
+  Computer Vision and Pattern Recognition. pp. 8119--8127 (2018)
+
+\bibitem{ren2015faster}
+Ren, S., He, K., Girshick, R., Sun, J.: Faster r-cnn: Towards real-time object
+  detection with region proposal networks. In: Advances in neural information
+  processing systems. pp. 91--99 (2015)
+
+\bibitem{robert1976unifying}
+Robert, P., Escoufier, Y.: A unifying tool for linear multivariate statistical
+  methods: the rv-coefficient. Journal of the Royal Statistical Society: Series
+  C (Applied Statistics)  \textbf{25}(3),  257--265 (1976)
+
+\bibitem{rozantsev2018beyond}
+Rozantsev, A., Salzmann, M., Fua, P.: Beyond sharing weights for deep domain
+  adaptation. IEEE transactions on pattern analysis and machine intelligence
+  \textbf{41}(4),  801--814 (2018)
+
+\bibitem{sermanet2013overfeat}
+Sermanet, P., Eigen, D., Zhang, X., Mathieu, M., Fergus, R., LeCun, Y.:
+  Overfeat: Integrated recognition, localization and detection using
+  convolutional networks. arXiv preprint arXiv:1312.6229  (2013)
+
+\bibitem{sharif2014cnn}
+Sharif~Razavian, A., Azizpour, H., Sullivan, J., Carlsson, S.: Cnn features
+  off-the-shelf: an astounding baseline for recognition. In: Proceedings of the
+  IEEE conference on computer vision and pattern recognition workshops. pp.
+  806--813 (2014)
+
+\bibitem{shrikumar2016not}
+Shrikumar, A., Greenside, P., Shcherbina, A., Kundaje, A.: Not just a black
+  box: Learning important features through propagating activation differences.
+  arXiv preprint arXiv:1605.01713  (2016)
+
+\bibitem{simonyan2014very}
+Simonyan, K., Zisserman, A.: Very deep convolutional networks for large-scale
+  image recognition. CoRR  \textbf{abs/1409.1556} (2015)
+
+\bibitem{song2019deep}
+Song, J., Chen, Y., Wang, X., Shen, C., Song, M.: Deep model transferability
+  from attribution maps. In: Advances in Neural Information Processing Systems
+  (2019)
+
+\bibitem{szekely2014partial}
+Sz{\'e}kely, G.J., Rizzo, M.L., et~al.: Partial distance correlation with
+  methods for dissimilarities. The Annals of Statistics  \textbf{42}(6),
+  2382--2412 (2014)
+
+\bibitem{tzeng2017adversarial}
+Tzeng, E., Hoffman, J., Saenko, K., Darrell, T.: Adversarial discriminative
+  domain adaptation. In: Proceedings of the IEEE Conference on Computer Vision
+  and Pattern Recognition. pp. 7167--7176 (2017)
+
+\bibitem{ulyanov2016instance}
+Ulyanov, D., Vedaldi, A., Lempitsky, V.: Instance normalization: The missing
+  ingredient for fast stylization. arXiv preprint arXiv:1607.08022  (2016)
+
+\bibitem{wu2018group}
+Wu, Y., He, K.: Group normalization. In: Proceedings of the European Conference
+  on Computer Vision (ECCV). pp. 3--19 (2018)
+
+\bibitem{xie2015holistically}
+Xie, S., Tu, Z.: Holistically-nested edge detection. In: Proceedings of the
+  IEEE international conference on computer vision. pp. 1395--1403 (2015)
+
+\bibitem{yosinski2014transferable}
+Yosinski, J., Clune, J., Bengio, Y., Lipson, H.: How transferable are features
+  in deep neural networks? In: Advances in neural information processing
+  systems. pp. 3320--3328 (2014)
+
+\bibitem{zamir2018taskonomy}
+Zamir, A.R., Sax, A., Shen, W.: Taskonomy: Disentangling task transfer
+  learning. In: Proceedings of IEEE Conference on Computer Vision and Pattern
+  Recognition (CVPR) (2018)
+
+\bibitem{places365}
+Zhou, B., Khosla, A., Lapedriza, {\`A}., Torralba, A., Oliva, A.: Places: An
+  image database for deep scene understanding. CoRR  \textbf{abs/1610.02055}
+  (2017)
+
+\bibitem{Zhuo2017DeepUC}
+Zhuo, J., Wang, S., Zhang, W., Huang, Q.: Deep unsupervised convolutional
+  domain adaptation. In: MM '17 (2017)
+
+\end{thebibliography}
