@@ -56,7 +56,7 @@
             <td width="100%" valign="middle">
               <heading id="interests">Research Interests</heading>
               <p>
-                I am interested in understanding how the human visual cortex works and then apply the gained insights towards creating agents with lifelong learning capabilities. I collaborate with <a href="https://www.ewi-psy.fu-berlin.de/en/einrichtungen/arbeitsbereiche/neural_dyn_of_vis_cog/team_v2/index.html">Radek Cichy's lab </a>and <a href="https://bonnerlab.org/"> Michael Bonner's lab</a> towards achieving my research goal.
+                I am interested in understanding how the human visual cortex works and then apply the gained insights towards creating agents with lifelong learning capabilities. I collaborate with <a href="https://www.ewi-psy.fu-berlin.de/en/einrichtungen/arbeitsbereiche/neural_dyn_of_vis_cog/team_v2/index.html">Radek Cichy's lab </a> towards achieving my research goal.
                 Below you can find my publications related to <a href="#computer">Computer</a> and <a href="#human">Human Vision</a>.
               </p>
             </td>
@@ -149,7 +149,44 @@
         </table>
           <heading id="human" style="color:black;font-size:18px;text-align:center;padding-left:35">Human Vision</heading>
           <table width="100%" align="center" border="0" cellspacing="0" cellpadding="35">
+            <tr onmouseout="mpi_stop()" onmouseover="mpi_start()">
+              <td width="25%">
+                <div class="one">
+                  <div class="two" id='mpi_image'><img src='images/Grouped_gif_with_labels.gif' width="180"></div>
+                  <img src='images/Grouped_gif_with_labels.gif' width="180">
+                </div>
+                <script type="text/javascript">
+                  function mpi_start() {
+                    document.getElementById('mpi_image').style.opacity = "1";
+                  }
 
+                  function mpi_stop() {
+                    document.getElementById('mpi_image').style.opacity = "0";
+                  }
+                  mpi_stop()
+                </script>
+              </td>
+              <td valign="middle" width="75%">
+                <a href="https://www.biorxiv.org/content/10.1101/2020.03.10.985309v1">
+                  <papertitle>Unveiling functions of the visual cortex using task-specific deep neural networks</papertitle>
+                </a>
+                <br>
+                <strong>Kshitij Dwivedi</strong>,
+                <a href="https://bonnerlab.org/people">Michael F. Bonner</a>,
+                <a href="http://userpage.fu-berlin.de/rmcichy/">Radoslaw Martin Cichy*</a>,
+                <a href="http://www.cvai.cs.uni-frankfurt.de/team.html">Gemma Roig*</a>
+                <br>
+                <em>bioRxiv</em>, 2020 &nbsp
+                <br>
+                <em>* jointly directed work</em>
+                <br>
+                <a href="https://sites.google.com/view/dnn2brainfunction/home">Project Page</a> /
+                <a href="https://www.biorxiv.org/content/10.1101/2020.11.27.401380v1.full.pdf">bioRxiv</a> /
+                <a href="https://github.com/cvai-repo/dnn2brain-function">Code</a> /
+                <p></p>
+                <p>We investigated the potential of deep neural networks trained on a diverse set of tasks in finding functionals roles of different regions of the human visual cortex</p>
+              </td>
+            </tr>
             <tr onmouseout="mpi_stop()" onmouseover="mpi_start()">
               <td width="25%">
                 <div class="one">
@@ -178,7 +215,7 @@
                 <br>
                 <em>Journal of Cognitive Neuroscience</em>, 2020 &nbsp
                 <br>
-                <em>* denotes jointly directed work</em>
+                <em>*jointly directed work</em>
                 <br>
                 <a href="https://www.mitpressjournals.org/doi/abs/10.1162/jocn_a_01624">Early Access</a> /
                 <a href="https://www.biorxiv.org/content/10.1101/2020.03.10.985309v1">bioRxiv</a> /
@@ -218,7 +255,7 @@
               <em>Frontiers in Computational Neuroscience</em>, 2019
 
               <br>
-              <em>* denotes equal contribution</em>
+              <em>*equal contribution</em>
               <br>
               <a href="https://github.com/KamitaniLab/End2EndDeepImageReconstruction">code</a>
               <p></p>
