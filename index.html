@@ -57,7 +57,7 @@
               <heading id="interests">Research Interests</heading>
               <p>
                 I am interested in understanding how the human visual cortex works and then apply the gained insights towards creating agents with lifelong learning capabilities. I collaborate with <a href="https://www.ewi-psy.fu-berlin.de/en/einrichtungen/arbeitsbereiche/neural_dyn_of_vis_cog/team_v2/index.html">Radek Cichy's lab </a> towards achieving my research goal.
-                Below you can find my publications related to <a href="#computer">Computer</a> and <a href="#human">Human Vision</a>.
+                Below you can find my publications related to <a style="background-color:#ffffd0">Computer Vision</a> and <a style="background-color:#F0F8FF">Human Vision</a> highlighted in respective colors.
               </p>
             </td>
           </tr>
@@ -71,85 +71,48 @@
         </tr>
       </table>
 
-      <heading id="computer" style="color:black;font-size:18px;text-align:center;padding-left:35">Computer Vision</heading>
 
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="35">
-          <tr onmouseout="porlight_stop()" onmouseover="porlight_start()">
-            <td width="25%">
-              <div class="one">
-                <div class="two" id='porlight_image'><img src='images/DDS_2.png'></div>
-                <img src='images/DDS_1.png'>
-              </div>
-              <script type="text/javascript">
-                function porlight_start() {
-                  document.getElementById('porlight_image').style.opacity = "1";
-                }
+          <tr onmouseout="mpi_stop()" onmouseover="mpi_start()" bgcolor="#F0F8FF">
+              <td width="25%">
+                <div class="one">
+                  <div class="two" id='mpi_image'><img src='images/Grouped_gif_with_labels.gif' width="180"></div>
+                  <img src='images/Grouped_gif_with_labels.gif' width="180">
+                </div>
+                <script type="text/javascript">
+                  function mpi_start() {
+                    document.getElementById('mpi_image').style.opacity = "1";
+                  }
 
-                function porlight_stop() {
-                  document.getElementById('porlight_image').style.opacity = "0";
-                }
-                porlight_stop()
-              </script>
-            </td>
-            <td valign="middle" width="75%">
-              <a href="https://arxiv.org/abs/2008.02107">
-                <papertitle>Duality Diagram Similarity: a generic framework for initialization selection in task transfer learning</papertitle>
-              </a>
-              <br>
-              <strong>Kshitij Dwivedi</strong>,  Jiahui Huang,
-              <a href="http://userpage.fu-berlin.de/rmcichy/">Radoslaw Martin Cichy</a>,
-              <a href="http://www.cvai.cs.uni-frankfurt.de/team.html">Gemma Roig</a>
-              <br>
-
-
-              <em>ECCV</em>, 2020
-              <br>
-              <a href="https://arxiv.org/abs/2008.02107">pdf</a> /
-              <a href="https://github.com/cvai-repo/duality-diagram-similarity">code</a>
-              <br>
-              <p></p>
-              <p>Highly efficient and accurate approach for initialization selection in task transfer learning.</p>
-            </td>
-          </tr>
-
-          <tr onmouseout="dpzlearn_stop()" onmouseover="dpzlearn_start()">
-            <td width="25%">
-              <div class="one">
-                <div class="two" id='dpzlearn_image'><img src='images/RSA_2.png'></div>
-                <img src='images/RSA_small.png'>
-              </div>
-              <script type="text/javascript">
-                function dpzlearn_start() {
-                  document.getElementById('dpzlearn_image').style.opacity = "1";
-                }
-
-                function dpzlearn_stop() {
-                  document.getElementById('dpzlearn_image').style.opacity = "0";
-                }
-                dpzlearn_stop()
-              </script>
-            </td>
-            <td valign="middle" width="75%">
-              <a href="https://arxiv.org/abs/1904.11740">
-                <papertitle>Representation Similarity Analysis for Efficient Task taxonomy & Transfer Learning</papertitle>
-              </a>
-              <br>
-              <strong>Kshitij Dwivedi</strong>,
-              <a href="http://www.cvai.cs.uni-frankfurt.de/team.html">Gemma Roig</a>
-              <br>
-              <em>CVPR</em>, 2019
-              <br>
-              <a href="https://arxiv.org/abs/1904.11740">pdf</a> /
-              <a href="https://github.com/kshitijd20/RSA-CVPR19-release">code</a>
-
-              <p></p>
-              <p>Efficient method to estimate task similarities and its application to transfer learning</p>
-            </td>
-          </tr>
-        </table>
-          <heading id="human" style="color:black;font-size:18px;text-align:center;padding-left:35">Human Vision</heading>
-          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="35">
-            <tr onmouseout="mpi_stop()" onmouseover="mpi_start()">
+                  function mpi_stop() {
+                    document.getElementById('mpi_image').style.opacity = "0";
+                  }
+                  mpi_stop()
+                </script>
+              </td>
+              <td valign="middle" width="75%">
+                <a href="https://sites.google.com/view/dnn2brainfunction/home">
+                  <papertitle>Unveiling functions of the visual cortex using task-specific deep neural networks</papertitle>
+                </a>
+                <br>
+                <strong>Kshitij Dwivedi</strong>,
+                <a href="https://bonnerlab.org/people">Michael F. Bonner</a>,
+                <a href="http://userpage.fu-berlin.de/rmcichy/">Radoslaw Martin Cichy*</a>,
+                <a href="http://www.cvai.cs.uni-frankfurt.de/team.html">Gemma Roig*</a>
+                <br>
+                <em>PLOS Computational Biology</em>, 2021 (in press)&nbsp
+                <br>
+                <em>* jointly directed work</em>
+                <br>
+                <a href="https://sites.google.com/view/dnn2brainfunction/home">Project Page</a> /
+                <a href="https://www.biorxiv.org/content/10.1101/2020.11.27.401380v2.full.pdf">preprint</a> /
+                <a href="https://github.com/cvai-repo/dnn2brain-function">Code</a> /
+                <a href="https://ccneuro.org/2019/proceedings/0000102.pdf">CCN 2019 </a>
+                <p></p>
+                <p>We investigated the potential of deep neural networks trained on a diverse set of tasks in finding functionals roles of different regions of the human visual cortex</p>
+              </td>
+            </tr>
+          <tr onmouseout="mpi_stop()" onmouseover="mpi_start()" bgcolor="#F0F8FF">
               <td width="25%">
                 <div class="one">
                   <div class="two" id='mpi_image'><img src='images/ag2021.gif' width="180"></div>
@@ -194,45 +157,45 @@
                 <p>We present Algonauts 2021 challenge where the goal is to determine which computational model best explains human brain responses while humans view everyday events</p>
               </td>
             </tr>
-            <tr onmouseout="mpi_stop()" onmouseover="mpi_start()">
-              <td width="25%">
-                <div class="one">
-                  <div class="two" id='mpi_image'><img src='images/Grouped_gif_with_labels.gif' width="180"></div>
-                  <img src='images/Grouped_gif_with_labels.gif' width="180">
-                </div>
-                <script type="text/javascript">
-                  function mpi_start() {
-                    document.getElementById('mpi_image').style.opacity = "1";
-                  }
+          <tr onmouseout="porlight_stop()" onmouseover="porlight_start()" bgcolor="#ffffd0">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='porlight_image'><img src='images/DDS_2.png'></div>
+                <img src='images/DDS_1.png'>
+              </div>
+              <script type="text/javascript">
+                function porlight_start() {
+                  document.getElementById('porlight_image').style.opacity = "1";
+                }
 
-                  function mpi_stop() {
-                    document.getElementById('mpi_image').style.opacity = "0";
-                  }
-                  mpi_stop()
-                </script>
-              </td>
-              <td valign="middle" width="75%">
-                <a href="https://sites.google.com/view/dnn2brainfunction/home">
-                  <papertitle>Unveiling functions of the visual cortex using task-specific deep neural networks</papertitle>
-                </a>
-                <br>
-                <strong>Kshitij Dwivedi</strong>,
-                <a href="https://bonnerlab.org/people">Michael F. Bonner</a>,
-                <a href="http://userpage.fu-berlin.de/rmcichy/">Radoslaw Martin Cichy*</a>,
-                <a href="http://www.cvai.cs.uni-frankfurt.de/team.html">Gemma Roig*</a>
-                <br>
-                <em>bioRxiv</em>, 2020 (under revision)&nbsp
-                <br>
-                <em>* jointly directed work</em>
-                <br>
-                <a href="https://sites.google.com/view/dnn2brainfunction/home">Project Page</a> /
-                <a href="https://www.biorxiv.org/content/10.1101/2020.11.27.401380v1.full.pdf">bioRxiv</a> /
-                <a href="https://github.com/cvai-repo/dnn2brain-function">Code</a>
-                <p></p>
-                <p>We investigated the potential of deep neural networks trained on a diverse set of tasks in finding functionals roles of different regions of the human visual cortex</p>
-              </td>
-            </tr>
-            <tr onmouseout="jocn_stop()" onmouseover="jocn_start()">
+                function porlight_stop() {
+                  document.getElementById('porlight_image').style.opacity = "0";
+                }
+                porlight_stop()
+              </script>
+            </td>
+            <td valign="middle" width="75%">
+              <a href="https://arxiv.org/abs/2008.02107">
+                <papertitle>Duality Diagram Similarity: a generic framework for initialization selection in task transfer learning</papertitle>
+              </a>
+              <br>
+              <strong>Kshitij Dwivedi</strong>,  Jiahui Huang,
+              <a href="http://userpage.fu-berlin.de/rmcichy/">Radoslaw Martin Cichy</a>,
+              <a href="http://www.cvai.cs.uni-frankfurt.de/team.html">Gemma Roig</a>
+              <br>
+
+
+              <em>ECCV</em>, 2020
+              <br>
+              <a href="https://arxiv.org/abs/2008.02107">pdf</a> /
+              <a href="https://github.com/cvai-repo/duality-diagram-similarity">code</a>
+              <br>
+              <p></p>
+              <p>Highly efficient and accurate approach for initialization selection in task transfer learning.</p>
+            </td>
+          </tr>
+
+          <tr onmouseout="jocn_stop()" onmouseover="jocn_start()" bgcolor="#F0F8FF">
               <td width="25%">
                 <div class="one">
                   <div class="two" id='jocn_image'><img src='images/jocn1.png'></div>
@@ -269,7 +232,45 @@
                 <p>We show that a scene parsing model explains human scene-selective responses better than a scene classification model. Further, components predicted by scene parsing models can be used to distinguish functional roles of human scene-selective areas PPA and OPA.</p>
               </td>
             </tr>
-          <tr onmouseout="unprocessing_stop()" onmouseover="unprocessing_start()">
+
+          <tr onmouseout="dpzlearn_stop()" onmouseover="dpzlearn_start()" bgcolor="#ffffd0">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='dpzlearn_image'><img src='images/RSA_2.png'></div>
+                <img src='images/RSA_small.png'>
+              </div>
+              <script type="text/javascript">
+                function dpzlearn_start() {
+                  document.getElementById('dpzlearn_image').style.opacity = "1";
+                }
+
+                function dpzlearn_stop() {
+                  document.getElementById('dpzlearn_image').style.opacity = "0";
+                }
+                dpzlearn_stop()
+              </script>
+            </td>
+            <td valign="middle" width="75%">
+              <a href="https://arxiv.org/abs/1904.11740">
+                <papertitle>Representation Similarity Analysis for Efficient Task taxonomy & Transfer Learning</papertitle>
+              </a>
+              <br>
+              <strong>Kshitij Dwivedi</strong>,
+              <a href="http://www.cvai.cs.uni-frankfurt.de/team.html">Gemma Roig</a>
+              <br>
+              <em>CVPR</em>, 2019
+              <br>
+              <a href="https://arxiv.org/abs/1904.11740">pdf</a> /
+              <a href="https://github.com/kshitijd20/RSA-CVPR19-release">code</a>
+
+              <p></p>
+              <p>Efficient method to estimate task similarities and its application to transfer learning</p>
+            </td>
+          </tr>
+
+
+
+          <tr onmouseout="unprocessing_stop()" onmouseover="unprocessing_start()" bgcolor="#F0F8FF">
             <td width="25%">
               <div class="one">
                 <div class="two" id='unprocessing_image'><img src='images/FN1.png'></div>
@@ -308,43 +309,7 @@
             </td>
           </tr>
 
-          <tr onmouseout="motionblur_stop()" onmouseover="motionblur_start()">
-            <td width="25%">
-              <div class="one">
-                <div class="two" id='motionblur_image'><img src='images/ccn2.png'></div>
-                <img src='images/ccn1.png'>
-              </div>
-              <script type="text/javascript">
-                function motionblur_start() {
-                  document.getElementById('motionblur_image').style.opacity = "1";
-                }
-
-                function motionblur_stop() {
-                  document.getElementById('motionblur_image').style.opacity = "0";
-                }
-                motionblur_stop()
-              </script>
-            </td>
-            <td valign="middle" width="75%">
-              <a href="https://ccneuro.org/2019/proceedings/0000102.pdf">
-                <papertitle>Explaining Scene-selective Visual Areas Using Task-specific Deep Neural Network Representations</papertitle>
-              </a>
-              <br>
-
-              <strong>Kshitij Dwivedi</strong>,
-              <a href="https://bonnerlab.org/people">Michael F. Bonner</a>,
-              <a href="http://www.cvai.cs.uni-frankfurt.de/team.html">Gemma Roig</a>,
-              <br>
-              <em>Conference on Cognitive Computational Neuroscience (CCN) </em>, 2019
-              <br>
-              <a href="dnn2brain/Functional_map_grouped_DNNs.html">Functional map 1</a> /
-              <a href="dnn2brain/Functional_map_individual_DNNs.html">Functional map 2</a>
-              <p></p>
-              <p>In this work, we demonstrate the potential of finding functions of visual cortex from functions of deep neural networks. Specifically, we distinguished the functional roles of scene selective regions OPA and PPA using deep neural networks.</p>
-            </td>
-          </tr>
-
-          <tr onmouseout="darkflash_stop()" onmouseover="darkflash_start()">
+          <tr onmouseout="darkflash_stop()" onmouseover="darkflash_start()" bgcolor="#F0F8FF">
             <td width="25%">
               <div class="one">
                 <div class="two" id='darkflash_image'><img src='images/algo.png'></div>
@@ -384,40 +349,6 @@
               <p>
                 We organized a challenge and workshop to predict human fMRI and MEG responses using computational models.
               </p>
-            </td>
-          </tr>
-
-
-
-          <tr onmouseout="loss_stop()" onmouseover="loss_start()" >
-            <td width="25%">
-              <div class="one">
-                <div class="two" id='loss_image'><img src='images/b1.png'></div>
-                <img src='images/biorxiv1.png'>
-              </div>
-              <script type="text/javascript">
-                function loss_start() {
-                  document.getElementById('loss_image').style.opacity = "1";
-                }
-
-                function loss_stop() {
-                  document.getElementById('loss_image').style.opacity = "0";
-                }
-                loss_stop()
-              </script>
-            </td>
-            <td valign="middle" width="75%">
-              <a href="https://www.biorxiv.org/content/10.1101/402735v1.abstract">
-                <papertitle>Task-specific vision models explain task-specific areas of visual cortex</papertitle>
-              </a>
-              <br>
-              <strong>Kshitij Dwivedi</strong>,
-              <a href="http://www.cvai.cs.uni-frankfurt.de/team.html">Gemma Roig</a>
-              <br>
-              <em>bioRxiv</em>, 2018
-              <br>
-              <p></p>
-              <p>We show that we can gain insights into functions of brain regions by comparing the human fMRI responses in a given region to activations of deep neural networks trained on diverse set of tasks.</p>
             </td>
           </tr>
 
@@ -537,6 +468,12 @@
           </tr>
         </table>
         <table width="100%" align="center" border="0" cellpadding="20">
+          <tr>
+            <td width="5%"><img src="images/goethe.jpg" width="36"></td>
+            <td width="95%" valign="center">
+              <a href="https://www.goethe-university-frankfurt.de/en?locale=en">TA, Computer Vision 2020-21, Goethe University Frankfurt am Main</a>
+            </td>
+          </tr>
           <tr>
             <td width="5%"><img src="images/mveeg.png" width="36"></td>
             <td width="95%" valign="center">
