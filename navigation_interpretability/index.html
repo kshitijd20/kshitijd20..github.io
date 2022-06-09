@@ -1,0 +1,168 @@
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript">google.load("jquery", "1.3.2");</script>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="./resources/style.css" media="screen"/>
+
+<html lang="en">
+<head>
+  	<title>What do navigation agents learn about their environment?</title>
+  	<meta property="og:image" content="./../images/CVPR2022.jpg"/>
+  	<meta property="og:title" content="What do navigation agents learn about their environment?" />
+  	<meta property="og:description" content="Paper description." />
+    <!-- Twitter automatically scrapes this. Go to https://cards-dev.twitter.com/validator?
+        if you update and want to force Twitter to re-scrape. -->
+    <meta property="twitter:card"          content="summary" />
+    <meta property="twitter:title"         content="Creative and Descriptive Paper Title." />
+    <meta property="twitter:description"   content="Paper description." />
+    <meta property="twitter:image"         content="Path to my teaser.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Add your Google Analytics tag here -->
+    <script async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-97476543-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-97476543-1');
+    </script>
+
+</head>
+
+<body>
+<div class="container">
+    <div class="title">
+        What do navigation agents learn about their environment?
+    </div>
+
+    <div class="venue">
+        In CVPR 2022
+    </div>
+
+    <br><br>
+
+    <div class="author">
+        <a href="https://kshitijd20.github.io/">Kshitij Dwivedi</a><sup>1</sup>
+    </div>
+    <div class="author">
+        <a href="http://www.cvai.cs.uni-frankfurt.de/team.html">Gemma Roig</a><sup>1</sup>
+    </div>
+    <div class="author">
+        <a href="https://anikem.github.io/">Aniruddha Kembhavi</a><sup>2</sup>
+    </div>
+    <div class="author">
+        <a href="https://roozbehm.info/">Roozbeh Mottaghi</a><sup>2</sup>
+    </div>
+
+    <br><br>
+
+    <div class="affiliation"><sup>1&nbsp;</sup>Goethe University Frankfurt</div>
+    <div class="affiliation"><sup>2&nbsp;</sup>PRIOR@ Allen Institute for AI</div>
+
+
+    <br><br>
+
+    <div class="links"><a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Dwivedi_What_Do_Navigation_Agents_Learn_About_Their_Environment_CVPR_2022_paper.pdf">[Paper]</a></div>
+    <!--<div class="links"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">[Video]</a></div>-->
+    <div class="links"><a href="https://github.com/elliottwu/webpage-template">[Code]</a></div>
+
+    <br><br>
+    <hr>
+    <h1>Goal</h1>
+    <!--<p style="width: 80%;"> Our goal in this work to interpret what do navigation agents (e.g. ObjectNav, PointNav) learn? 
+
+    </p>-->
+    <img style="width: 80%;" src="./resources/goal.png" alt="Teaser figure."/>
+    <br>
+    
+    <br><br>
+    <hr>
+    <h1>Abstract</h1>
+    <p style="width: 80%;">
+        Today’s state of the art visual navigation agents typically consist of large deep learning models trained end to end. 
+        Such models offer little to no interpretability about the learned skills or the actions of the agent taken in response to its environment. 
+         While past works have explored interpreting deep learning models, little attention has been devoted to interpreting embodied AI systems, which often involve
+         reasoning about the structure of the environment, target characteristics and the outcome of one’s actions. In this paper, we introduce the Interpretability System for Embodied
+         agEnts (iSEE) for Point Goal and Object Goal navigation agents. We use iSEE to probe the dynamic representations produced by these agents for the presence of information about the agent as well as the environment. We demonstrate
+         interesting insights about navigation agents using iSEE, including the ability to encode reachable locations (to avoid obstacles), visibility of the target, progress from the initial
+         spawn location as well as the dramatic effect on the behaviors of agents when we mask out critical individual neurons.
+    </p>
+
+    <br><br>
+    <hr>
+
+
+    
+    <h1> Navigation related concepts</h1>
+    <br>
+    <img style="width: 80%;" src="./resources/concepts.png" alt="Teaser figure."/>
+    <br>
+    <p style="width: 80%;"> Which of the above concepts are encoded in agent's dynamic representation?</p>
+    <br><br>
+    <hr>
+
+    
+
+    <!--
+    <h1>Video</h1>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    </div>
+
+    <br><br>
+    <hr>
+    -->
+
+    <h1>iSEE: Interpretability System for Embodied agEnts</h1>
+    <img style="width: 80%;" src="./resources/method.jpg"
+         alt="Method overview figure"/>
+    <br>
+    <a class="links" href="https://github.com/elliottwu/webpage-template">[Code]</a>
+
+    <br><br>
+    <hr>
+
+    <h1>Visualization of concept neurons</h1>
+    <img style="width: 80%;" src="./resources/result.jpg"
+         alt="Results figure"/>
+
+    <br><br>
+    <hr>
+
+    <h1>Paper</h1>
+    <div class="paper-thumbnail">
+        <a href="https://arxiv.org">
+            <img class="layered-paper-big" width="100%" src="./resources/paper.jpg" alt="Paper thumbnail"/>
+        </a>
+    </div>
+    <div class="paper-info">
+        <h3>What do navigation agents learn about their environment?</h3>
+        <p>Kshitij Dwivedi, Gemma Roig, Aniruddh Kembhavi, Roozbeh Mottaghi</p>
+        <p>In CVPR, 2022.</p>
+        <pre><code>@InProceedings{dwivedi2022navigation_interpretability,
+    title = {What do navigation agents learn about their environment?},
+    author = {Kshitij Dwivedi, Gemma Roig, Aniruddh Kembhavi, Roozbeh Mottaghi},
+    booktitle = {CVPR},
+    year = {2022},
+}</code></pre>
+    </div>
+
+    <br><br>
+    <hr>
+
+    <h1>Acknowledgements</h1>
+    <p style="width: 80%;">
+        This project template is borrowed from <a href="https://github.com/elliottwu/webpage-template">here</a>.
+    </p>
+
+    <br><br>
+</div>
+
+</body>
+
+</html>
