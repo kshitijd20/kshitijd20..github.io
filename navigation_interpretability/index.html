@@ -5,6 +5,7 @@
 <link rel="stylesheet" type="text/css" href="./resources/style.css" media="screen"/>
 
 <html lang="en">
+
 <head>
   	<title>What do navigation agents learn about their environment?</title>
   	<meta property="og:image" content="./../images/CVPR2022.jpg"/>
@@ -121,10 +122,15 @@
     <h1>iSEE: Interpretability System for Embodied agEnts</h1>
     <img style="width: 80%;" src="./resources/isee1.png"
          alt="Method overview figure"/>
+    <p style="width: 80%;">     Baseline model to solve ObjectNav/PointNav tasks. We investigate which concepts are encoded in the agent’s dynamic 
+         representation (RNN)</p>
+
     <hr>
     <img style="width: 80%;" src="./resources/isee2.png"
     alt="Method overview figure"/>
     <br>
+    <p style="width: 80%;"> First, we train a gradient boosted tree to predict concepts from RNN and then apply explainability method
+    SHAP to find which RNN neurons were most relevant in prediction. </p>
 
 
     <br><br>
